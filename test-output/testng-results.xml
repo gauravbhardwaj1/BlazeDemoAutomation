@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6791" started-at="2021-06-01T14:16:31Z" finished-at="2021-06-01T14:16:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6791" started-at="2021-06-01T14:16:31Z" finished-at="2021-06-01T14:16:38Z">
+      <class name="blazedemo.Booking">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:blazedemo.Booking@57d5872c]" name="initialize" is-config="true" duration-ms="4208" started-at="2021-06-01T19:46:31Z" finished-at="2021-06-01T19:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyBasePageNavigation()[pri:0, instance:blazedemo.Booking@57d5872c]" name="verifyBasePageNavigation" duration-ms="50" started-at="2021-06-01T19:46:35Z" finished-at="2021-06-01T19:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBasePageNavigation -->
+        <test-method status="PASS" signature="verifyCitySelection()[pri:0, instance:blazedemo.Booking@57d5872c]" name="verifyCitySelection" duration-ms="572" started-at="2021-06-01T19:46:35Z" depends-on-methods="blazedemo.Booking.verifyBasePageNavigation" finished-at="2021-06-01T19:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCitySelection -->
+        <test-method status="PASS" signature="verifyFlightSelection()[pri:0, instance:blazedemo.Booking@57d5872c]" name="verifyFlightSelection" duration-ms="799" started-at="2021-06-01T19:46:36Z" depends-on-methods="blazedemo.Booking.verifyCitySelection" finished-at="2021-06-01T19:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSelection -->
+        <test-method status="PASS" signature="verifyBooking()[pri:0, instance:blazedemo.Booking@57d5872c]" name="verifyBooking" duration-ms="1022" started-at="2021-06-01T19:46:37Z" depends-on-methods="blazedemo.Booking.verifyFlightSelection" finished-at="2021-06-01T19:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:blazedemo.Booking@57d5872c]" name="tearDown" is-config="true" duration-ms="126" started-at="2021-06-01T19:46:38Z" finished-at="2021-06-01T19:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- blazedemo.Booking -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
